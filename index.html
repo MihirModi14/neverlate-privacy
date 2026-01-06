@@ -2,16 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Never Late</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Never Late – Chrome Extension</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.95em;
+    }
+  </style>
 </head>
 <body>
+
   <h1>Never Late</h1>
+
   <p>
-    Never Late is a Chrome extension that reads upcoming Google Calendar events
-    to notify users and open meetings on time.
+    Never Late is a Chrome extension that helps users avoid missing online meetings
+    by monitoring their Google Calendar and alerting them before meetings start.
   </p>
 
-  <h2>Privacy & Terms</h2>
+  <h2>How Never Late Works</h2>
+  <ul>
+    <li>User signs in with their Google account</li>
+    <li>The extension reads upcoming Google Calendar events</li>
+    <li>It detects meetings that contain Google Meet links</li>
+    <li>Users receive reminders before meetings begin</li>
+    <li>The extension can automatically open the meeting at start time</li>
+  </ul>
+
+  <h2>Why Google Calendar Access Is Required</h2>
+  <p>
+    Never Late requires access to Google Calendar in order to:
+  </p>
+  <ul>
+    <li>Read upcoming calendar events</li>
+    <li>Identify meeting start times</li>
+    <li>Extract Google Meet links from events</li>
+    <li>Trigger notifications and automatic meeting opening</li>
+  </ul>
+
+  <h2>Privacy & Data Usage</h2>
+  <p>
+    Never Late only accesses Google Calendar data after explicit user consent.
+    Calendar data is used solely to provide meeting reminders and automation.
+    No data is shared, sold, or used for advertising.
+  </p>
+  <p>
+    Users can revoke access at any time from their Google Account settings.
+  </p>
+
   <p>
     <a href="./privacy.html" target="_blank">Privacy Policy</a> |
     <a href="./privacy.html" target="_blank">Terms of Service</a>
@@ -20,5 +77,6 @@
   <footer>
     <p>Contact: <a href="mailto:modimihir960@gmail.com">modimihir960@gmail.com</a></p>
   </footer>
+
 </body>
 </html>
